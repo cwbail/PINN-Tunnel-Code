@@ -1,0 +1,17 @@
+PLAXIS: results/Calculation results Fertig Zustand [Phase_1] 12 Table of total displacements.TXT
+PINN:   results/geo_15k_w05/geo_15k_w05_model.pt
+Parameter: E=150.0 MPa  gamma=20.0 kN/m3  phi=30.0 Grad  Tiefe=20.0 m  t=0.3 m
+Knoten: 13916 (davon 13507 mit r >= R_o = 2.80 m)
+
+Alle Knoten:         RMSE 0.096 mm   rel. Fehler 8.1 %
+Boden r >= R_o:      RMSE 0.091 mm   rel. Fehler 8.2 %
+max|u|  PLAXIS 4.586 mm   PINN 4.328 mm
+Oberflaeche u_y bei x=25:  PLAXIS +0.629 mm   PINN +0.633 mm
+
+Tunnelrand (Bodenseite r = R_o), radial u_r [mm], + = nach aussen:
+  Ulme re.  PLAXIS  +2.173   PINN  +1.905
+  First     PLAXIS  -0.578   PINN  -0.454
+  Ulme li.  PLAXIS  +2.174   PINN  +1.884
+  Sohle     PLAXIS  -4.334   PINN  -4.076
+
+Dateien: results\plaxis_vergleich\E150_G20_P30_H20_t03\plaxis_vergleich.vtu, results\plaxis_vergleich\E150_G20_P30_H20_t03\vergleich_feld.png, results\plaxis_vergleich\E150_G20_P30_H20_t03\vergleich_linien.png

@@ -1,0 +1,43 @@
+{
+ "modell": "results/geo_15k_w05/geo_15k_w05_model.pt",
+ "modell_kB": 268.5,
+ "laden_s": 0.005,
+ "pinn_median_s": {
+  "feld": 0.006251600000723556,
+  "ring": 0.003999499999736145,
+  "mc": 0.014455499999712629,
+  "gesamt": 0.02515155000037339
+ },
+ "masse_ms_je_satz": 0.02078954999997222,
+ "grid_saetze": 408000,
+ "grid_s": 9.874679599999581,
+ "pinn_speicher_MB": 3242.5,
+ "pinn_speicher_einzel_MB": 360.8,
+ "trainingsdaten_MB": 196.4,
+ "trainingsdaten_rechnungen": 1080,
+ "system_pinn": {
+  "system": "Windows-11-10.0.26300-SP0",
+  "prozessor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "kerne_logisch": 14,
+  "torch": "2.12.1+cpu",
+  "torch_threads": 12,
+  "arbeitsspeicher_GB": 33.6
+ },
+ "training_h": 2.8769873874717287,
+ "fem_median_s": {
+  "wanduhr_s": 2.8855,
+  "cpu_s": 1.3984999999999999,
+  "netz_s": 0.12,
+  "loesen_s": 0.744,
+  "spannungen_mc_s": 0.429,
+  "paraview_s": 0.4225,
+  "schnittgroessen_s": 0.389
+ },
+ "fem_speicher_MB": 297.6,
+ "T_FEM": 2.8855,
+ "faktor": 114.72453983778983,
+ "T_daten_s": 1008.0000000000001,
+ "T_train_s": 10357.154594898224,
+ "break_even": 3973.34618266516,
+ "grid_fem_h": 327.0233333333333
+}

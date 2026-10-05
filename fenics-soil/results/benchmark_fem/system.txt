@@ -1,0 +1,7 @@
+Datum: Thu Oct  1 09:30:08 UTC 2026
+Kerne (nproc): 14
+CPU(s):                               14
+Model name:                           Intel(R) Core(TM) Ultra 5 125U
+Thread(s) per core:                   2
+MemTotal:       16024260 kB
+OMP_NUM_THREADS=nicht gesetzt

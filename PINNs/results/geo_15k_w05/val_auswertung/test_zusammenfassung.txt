@@ -1,0 +1,12 @@
+TEST Modell results/geo_15k_w05/geo_15k_w05_model.pt
+Testdaten ../fenics-soil/fem_data_geo (nur Validierung)
+
+Innerhalb der trainierten Bereiche: 216 Rechnungen
+  Verschiebungsfeld   RMSE 0.090 mm (Schale 0.101, Boden 0.088), rel. Fehler 8.5 %
+  max|u| Tunnelrand   mittl. Abweichung 0.11 mm, max 0.78 mm
+  Grenzwert 10 mm   0 von 216 falsch eingestuft
+  Moment M            RMSE 11.4 kNm/m (|M|max FEM im Mittel 151.8, rel 8 %)
+  Normalkraft N       RMSE 181 kN/m (|N|max FEM im Mittel 1172, rel 15 %)
+  Mohr-Coulomb eta    mittl. Abweichung 0.018 (3 m um die Schale, c = 2 kPa)
+
+Ausserhalb (Extrapolation): keine Rechnungen

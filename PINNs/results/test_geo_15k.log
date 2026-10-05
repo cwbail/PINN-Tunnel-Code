@@ -1,0 +1,57 @@
+Modell: results/geo_15k_w05/geo_15k_w05_model.pt
+Testdaten: ../fenics-soil/fem_data_geo_test  (34 Rechnungen)
+  [  1/34] Lauf    1  RMSE 0.083 mm  max|u| Rand FEM  6.16 / PINN  6.10 mm
+  [  2/34] Lauf    2  RMSE 0.120 mm  max|u| Rand FEM  2.93 / PINN  2.91 mm
+  [  3/34] Lauf    3  RMSE 0.096 mm  max|u| Rand FEM  1.75 / PINN  1.77 mm
+  [  4/34] Lauf    4  RMSE 0.070 mm  max|u| Rand FEM  1.88 / PINN  1.98 mm
+  [  5/34] Lauf    5  RMSE 0.111 mm  max|u| Rand FEM  2.58 / PINN  2.56 mm
+  [  6/34] Lauf    6  RMSE 0.089 mm  max|u| Rand FEM  1.83 / PINN  1.83 mm
+  [  7/34] Lauf    7  RMSE 0.035 mm  max|u| Rand FEM  2.26 / PINN  2.34 mm
+  [  8/34] Lauf    8  RMSE 0.082 mm  max|u| Rand FEM  3.19 / PINN  3.20 mm
+  [  9/34] Lauf    9  RMSE 0.083 mm  max|u| Rand FEM  2.14 / PINN  2.15 mm
+  [ 10/34] Lauf   10  RMSE 0.099 mm  max|u| Rand FEM  3.00 / PINN  3.01 mm
+  [ 11/34] Lauf   11  RMSE 0.093 mm  max|u| Rand FEM  1.95 / PINN  1.94 mm
+  [ 12/34] Lauf   12  RMSE 0.124 mm  max|u| Rand FEM  1.99 / PINN  1.97 mm
+  [ 13/34] Lauf   13  RMSE 0.075 mm  max|u| Rand FEM  1.50 / PINN  1.53 mm
+  [ 14/34] Lauf   14  RMSE 0.086 mm  max|u| Rand FEM  4.43 / PINN  4.37 mm
+  [ 15/34] Lauf   15  RMSE 0.072 mm  max|u| Rand FEM  5.93 / PINN  6.03 mm
+  [ 16/34] Lauf   16  RMSE 0.062 mm  max|u| Rand FEM  2.81 / PINN  2.82 mm
+  [ 17/34] Lauf   17  RMSE 0.077 mm  max|u| Rand FEM  7.72 / PINN  7.79 mm
+  [ 18/34] Lauf   18  RMSE 0.089 mm  max|u| Rand FEM  2.91 / PINN  2.92 mm
+  [ 19/34] Lauf   19  RMSE 0.054 mm  max|u| Rand FEM  5.41 / PINN  5.37 mm
+  [ 20/34] Lauf   20  RMSE 0.039 mm  max|u| Rand FEM  1.84 / PINN  1.96 mm
+  [ 21/34] Lauf   21  RMSE 0.094 mm  max|u| Rand FEM  2.92 / PINN  2.97 mm
+  [ 22/34] Lauf   22  RMSE 0.094 mm  max|u| Rand FEM  2.27 / PINN  2.39 mm
+  [ 23/34] Lauf   23  RMSE 0.059 mm  max|u| Rand FEM  3.24 / PINN  3.24 mm
+  [ 24/34] Lauf   24  RMSE 0.119 mm  max|u| Rand FEM  1.81 / PINN  1.78 mm
+  [ 25/34] Lauf   25  RMSE 0.110 mm  max|u| Rand FEM  2.49 / PINN  2.51 mm
+  [ 26/34] Lauf   26  RMSE 0.085 mm  max|u| Rand FEM  5.16 / PINN  5.14 mm
+  [ 27/34] Lauf   27  RMSE 0.104 mm  max|u| Rand FEM  1.67 / PINN  1.67 mm
+  [ 28/34] Lauf   28  RMSE 0.132 mm  max|u| Rand FEM  5.45 / PINN  5.33 mm
+  [ 29/34] Lauf   29  RMSE 0.072 mm  max|u| Rand FEM  6.38 / PINN  6.35 mm
+  [ 30/34] Lauf   30  RMSE 0.093 mm  max|u| Rand FEM  3.71 / PINN  3.73 mm
+  [ 31/34] Lauf   31  RMSE 0.271 mm  max|u| Rand FEM 12.72 / PINN 12.23 mm   EXTRAPOLATION (E=40)
+  [ 32/34] Lauf   32  RMSE 0.100 mm  max|u| Rand FEM  1.46 / PINN  1.49 mm   EXTRAPOLATION (E=550)
+  [ 33/34] Lauf   33  RMSE 0.131 mm  max|u| Rand FEM  5.42 / PINN  5.55 mm   EXTRAPOLATION (depth=38)
+  [ 34/34] Lauf   34  RMSE 0.036 mm  max|u| Rand FEM  2.86 / PINN  2.87 mm   EXTRAPOLATION (t=0.6)
+
+TEST Modell results/geo_15k_w05/geo_15k_w05_model.pt
+Testdaten ../fenics-soil/fem_data_geo_test
+
+Innerhalb der trainierten Bereiche: 30 Rechnungen
+  Verschiebungsfeld   RMSE 0.087 mm (Schale 0.095, Boden 0.085), rel. Fehler 11.3 %
+  max|u| Tunnelrand   mittl. Abweichung 0.04 mm, max 0.12 mm
+  Grenzwert 10 mm   0 von 30 falsch eingestuft
+  Moment M            RMSE 7.6 kNm/m (|M|max FEM im Mittel 99.5, rel 8 %)
+  Normalkraft N       RMSE 170 kN/m (|N|max FEM im Mittel 1148, rel 15 %)
+  Mohr-Coulomb eta    mittl. Abweichung 0.024 (3 m um die Schale, c = 2 kPa)
+
+Ausserhalb (Extrapolation): 4 Rechnungen
+  Verschiebungsfeld   RMSE 0.134 mm (Schale 0.141, Boden 0.133), rel. Fehler 10.8 %
+  max|u| Tunnelrand   mittl. Abweichung 0.17 mm, max 0.48 mm
+  Grenzwert 10 mm   0 von 4 falsch eingestuft
+  Moment M            RMSE 14.8 kNm/m (|M|max FEM im Mittel 161.2, rel 9 %)
+  Normalkraft N       RMSE 202 kN/m (|N|max FEM im Mittel 1227, rel 16 %)
+  Mohr-Coulomb eta    mittl. Abweichung 0.020 (3 m um die Schale, c = 2 kPa)
+
+geschrieben: results\test_geo_15k

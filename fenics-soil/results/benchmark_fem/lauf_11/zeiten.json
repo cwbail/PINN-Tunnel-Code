@@ -1,0 +1,19 @@
+{
+ "E": 405.0,
+ "gamma": 19.0,
+ "phi": 26.0,
+ "depth": 29.0,
+ "t_liner": 0.31,
+ "elemente": 3849,
+ "knoten": 2010,
+ "zeiten_s": {
+  "netz": 0.12,
+  "aufbau_und_loesen": 0.729,
+  "spannungen_mohr_coulomb": 0.59,
+  "paraview_export": 0.386,
+  "schnittgroessen_und_ausgabe": 0.418,
+  "gesamt_im_skript": 2.242
+ },
+ "cpu_zeit_s": 1.463,
+ "max_arbeitsspeicher_MB": 294.3
+}

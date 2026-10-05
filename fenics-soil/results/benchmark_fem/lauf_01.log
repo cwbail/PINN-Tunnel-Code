@@ -1,0 +1,61 @@
+════════════════════════════════════════════════════════════════
+  TUNNELBAU  –  2-D FEM (EVZ, linear-elastisch)
+════════════════════════════════════════════════════════════════
+  Netz … OK  (3,666 Elemente  |  1,919 Knoten  |  P2)
+  Systemaufstellung & Lösung … OK
+  max|ux| = 2.6394 mm   |   max|uy| = 6.1653 mm
+  Spannungsauswertung … OK
+  Ergebnisse schreiben … OK
+  Schnittgrößen aus Verformung (Ringkinematik) … OK
+     N(θ):   -842.2 …   -454.9  kN/m
+     M(θ):    -81.6 …     80.5  kNm/m
+     → /home/fenics/project/results/benchmark_fem/lauf_01/schnittgroessen_ring.csv
+     → /home/fenics/project/results/benchmark_fem/lauf_01/schnittgroessen_ring.png
+
+════════════════════════════════════════════════════════════════
+  ERGEBNISSE  –  ÜBERSICHT
+════════════════════════════════════════════════════════════════
+  Geometrie  : 50×50 m | Achse (25|-16) m | D = 5 m | t = 0.28 m
+  Netz       : 3,666 Elemente  |  1,919 Knoten  (P2)
+
+  ── Verschiebungen  Δu  (NUR aus Tunneleinbau, K0-Verfahren) ────────
+     max|ux|  =     2.6394 mm
+     max|uy|  =     6.1653 mm   ← dominante Setzungskomponente
+     K0 (Jaky) = 0.4925   [1 – sin(30.5°)]
+
+  ── Betonschale  ─────────────────────────────────────────────────────
+     |σ_θθ|_max  =    7454.3  kN/m²  (Tangentialspannung)
+     N_Mittel    ≈    -682.3  kN/m   (Normalkraft, Membrananteil, aus σ_θθ)
+     σ_vM,max    =     6.734  MPa
+
+  ── Schnittgrößen aus Verformung  (Ringkinematik, Abschn. 11)  ───────
+     M(θ)  =     -81.6 kNm/m  bei θ=270.0°   …       80.5 kNm/m  bei θ=183.0°
+     N(θ)  =    -842.2  kN/m  bei θ=353.0°   …     -454.9  kN/m  bei θ= 90.0°
+     (θ = 0° bei x=x_Achse, mathematisch positiv; EA=9.92 GN/m, EI=64.79 MNm²/m)
+
+  ── Boden  –  Mohr-Coulomb  ──────────────────────────────────────────
+     η_max = 1.071  ⚠  FLIESSGRENZE ÜBERSCHRITTEN!
+             Linear-elastisches Modell nicht ausreichend.
+             → Elastoplastisches Modell (MC-Return-Mapping) nötig.
+
+  ── Ergebnisdateien  (in ParaView öffnen)  ───────────────────────────
+     /home/fenics/project/results/benchmark_fem/lauf_01/disp.xdmf
+     /home/fenics/project/results/benchmark_fem/lauf_01/sigma_xx.xdmf
+     /home/fenics/project/results/benchmark_fem/lauf_01/sigma_yy.xdmf
+     /home/fenics/project/results/benchmark_fem/lauf_01/sigma_xx_gesamt.xdmf
+     /home/fenics/project/results/benchmark_fem/lauf_01/sigma_yy_gesamt.xdmf
+     /home/fenics/project/results/benchmark_fem/lauf_01/tau_xy.xdmf
+     /home/fenics/project/results/benchmark_fem/lauf_01/sigma_zz.xdmf
+     /home/fenics/project/results/benchmark_fem/lauf_01/sigma_vMises.xdmf
+     /home/fenics/project/results/benchmark_fem/lauf_01/sigma_tangential.xdmf
+     /home/fenics/project/results/benchmark_fem/lauf_01/sigma_radial.xdmf
+     /home/fenics/project/results/benchmark_fem/lauf_01/MC_Ausnutzung.xdmf
+     /home/fenics/project/results/benchmark_fem/lauf_01/Material_ID.xdmf
+     /home/fenics/project/results/benchmark_fem/lauf_01/schnittgroessen_ring.csv
+     /home/fenics/project/results/benchmark_fem/lauf_01/schnittgroessen_ring.png
+
+  Tipp ParaView: File → Open → Mehrere .xdmf gleichzeitig laden,
+  dann 'Warp by Vector' (Faktor ~200) für Verformungsdarstellung.
+  Material_ID: 1=Boden | 2=Betonschale | 3=Hohlraum
+════════════════════════════════════════════════════════════════
+  Zeiten [s]: {'netz': 0.194, 'aufbau_und_loesen': 1.266, 'spannungen_mohr_coulomb': 1.422, 'paraview_export': 0.762, 'schnittgroessen_und_ausgabe': 0.934, 'gesamt_im_skript': 4.577}

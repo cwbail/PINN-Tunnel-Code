@@ -1,0 +1,39 @@
+ZEITVERGLEICH PINN <-> FEM
+============================================================
+PINN-Rechner: {'system': 'Windows-11-10.0.26300-SP0', 'prozessor': 'Intel64 Family 6 Model 170 Stepping 4, GenuineIntel', 'kerne_logisch': 14, 'torch': '2.12.1+cpu', 'torch_threads': 12, 'arbeitsspeicher_GB': 33.6}
+Modell results/geo_15k_w05/geo_15k_w05_model.pt  (268.5 kB, laden 0.00 s)
+
+PINN je Abfrage (Median ueber 30 Kombinationen, je 5 Wiederholungen):
+  feld          6.3 ms
+  ring          4.0 ms
+  mc           14.5 ms
+  gesamt       25.2 ms
+Massenabfrage max|u| Rand: 0.021 ms je Parametersatz
+Grenzdiagramm-Raster: 408,000 Parametersaetze in 9.9 s
+Arbeitsspeicher PINN (Spitze, ganzer Prozess): Einzelabfragen 360.8 MB, mit Grenzdiagramm-Raster 3242.5 MB
+Trainingsdaten: 1080 Rechnungen, 196.4 MB  |  Modell 268.5 kB
+Trainingszeit: 2.88 h
+
+FEM (vollstaendige Rechnung inkl. ParaView-Export, Median):
+Datum: Thu Oct  1 09:30:08 UTC 2026
+Kerne (nproc): 14
+CPU(s):                               14
+Model name:                           Intel(R) Core(TM) Ultra 5 125U
+Thread(s) per core:                   2
+MemTotal:       16024260 kB
+OMP_NUM_THREADS=nicht gesetzt
+  wanduhr_s               2.89 s
+  cpu_s                   1.40 s
+  netz_s                  0.12 s
+  loesen_s                0.74 s
+  spannungen_mc_s         0.43 s
+  paraview_s              0.42 s
+  schnittgroessen_s       0.39 s
+  Arbeitsspeicher max 298 MB
+
+BESCHLEUNIGUNG je Abfrage: FEM 2.9 s / PINN 25 ms = Faktor 115
+Vorleistung PINN: FEM-Daten 0.3 h + Training 2.9 h
+BREAK-EVEN: ab ca. 3,973 Abfragen ist das PINN insgesamt schneller
+Grenzdiagramme (408,000 Saetze): PINN 10 s  <->  FEM 327 h = 14 Tage
+
+Bild: results\benchmark\benchmark_vergleich.png

@@ -1,0 +1,233 @@
+Modell: results/geo_15k_w05/geo_15k_w05_model.pt
+Testdaten: ../fenics-soil/fem_data_geo  (216 Rechnungen, nur Validierung)
+  [  1/216] Lauf    3  RMSE 0.207 mm  max|u| Rand FEM 10.38 / PINN 10.15 mm
+  [  2/216] Lauf    6  RMSE 0.249 mm  max|u| Rand FEM 11.72 / PINN 11.45 mm
+  [  3/216] Lauf    9  RMSE 0.346 mm  max|u| Rand FEM 13.06 / PINN 12.80 mm
+  [  4/216] Lauf   13  RMSE 0.130 mm  max|u| Rand FEM  5.60 / PINN  5.76 mm
+  [  5/216] Lauf   22  RMSE 0.109 mm  max|u| Rand FEM  3.83 / PINN  3.98 mm
+  [  6/216] Lauf   24  RMSE 0.123 mm  max|u| Rand FEM  4.22 / PINN  4.51 mm
+  [  7/216] Lauf   26  RMSE 0.118 mm  max|u| Rand FEM  4.49 / PINN  4.71 mm
+  [  8/216] Lauf   37  RMSE 0.042 mm  max|u| Rand FEM  1.11 / PINN  1.32 mm
+  [  9/216] Lauf   47  RMSE 0.092 mm  max|u| Rand FEM  8.63 / PINN  8.52 mm
+  [ 10/216] Lauf   50  RMSE 0.118 mm  max|u| Rand FEM  9.87 / PINN  9.73 mm
+  [ 11/216] Lauf   54  RMSE 0.200 mm  max|u| Rand FEM 11.47 / PINN 11.29 mm
+  [ 12/216] Lauf   57  RMSE 0.083 mm  max|u| Rand FEM  4.85 / PINN  4.98 mm
+  [ 13/216] Lauf   70  RMSE 0.093 mm  max|u| Rand FEM  3.95 / PINN  4.00 mm
+  [ 14/216] Lauf   71  RMSE 0.084 mm  max|u| Rand FEM  4.14 / PINN  4.20 mm
+  [ 15/216] Lauf   75  RMSE 0.036 mm  max|u| Rand FEM  1.80 / PINN  2.03 mm
+  [ 16/216] Lauf   82  RMSE 0.032 mm  max|u| Rand FEM  1.03 / PINN  1.21 mm
+  [ 17/216] Lauf   85  RMSE 0.034 mm  max|u| Rand FEM  1.17 / PINN  1.35 mm
+  [ 18/216] Lauf   91  RMSE 0.092 mm  max|u| Rand FEM  7.41 / PINN  7.51 mm
+  [ 19/216] Lauf   97  RMSE 0.138 mm  max|u| Rand FEM  9.84 / PINN  9.86 mm
+  [ 20/216] Lauf   99  RMSE 0.174 mm  max|u| Rand FEM 10.29 / PINN 10.19 mm
+  [ 21/216] Lauf  100  RMSE 0.074 mm  max|u| Rand FEM  3.98 / PINN  4.08 mm
+  [ 22/216] Lauf  101  RMSE 0.066 mm  max|u| Rand FEM  4.13 / PINN  4.20 mm
+  [ 23/216] Lauf  107  RMSE 0.069 mm  max|u| Rand FEM  5.43 / PINN  5.48 mm
+  [ 24/216] Lauf  118  RMSE 0.038 mm  max|u| Rand FEM  1.50 / PINN  1.65 mm
+  [ 25/216] Lauf  125  RMSE 0.045 mm  max|u| Rand FEM  2.05 / PINN  2.16 mm
+  [ 26/216] Lauf  127  RMSE 0.033 mm  max|u| Rand FEM  0.95 / PINN  1.11 mm
+  [ 27/216] Lauf  143  RMSE 0.144 mm  max|u| Rand FEM  9.36 / PINN  9.21 mm
+  [ 28/216] Lauf  145  RMSE 0.092 mm  max|u| Rand FEM  3.60 / PINN  3.73 mm
+  [ 29/216] Lauf  159  RMSE 0.064 mm  max|u| Rand FEM  3.14 / PINN  3.18 mm
+  [ 30/216] Lauf  161  RMSE 0.094 mm  max|u| Rand FEM  3.50 / PINN  3.47 mm
+  [ 31/216] Lauf  165  RMSE 0.049 mm  max|u| Rand FEM  1.48 / PINN  1.62 mm
+  [ 32/216] Lauf  167  RMSE 0.029 mm  max|u| Rand FEM  1.66 / PINN  1.74 mm
+  [ 33/216] Lauf  187  RMSE 0.108 mm  max|u| Rand FEM 12.62 / PINN 12.38 mm
+  [ 34/216] Lauf  194  RMSE 0.045 mm  max|u| Rand FEM  6.50 / PINN  6.60 mm
+  [ 35/216] Lauf  195  RMSE 0.077 mm  max|u| Rand FEM  6.92 / PINN  7.11 mm
+  [ 36/216] Lauf  200  RMSE 0.043 mm  max|u| Rand FEM  3.99 / PINN  4.18 mm
+  [ 37/216] Lauf  207  RMSE 0.053 mm  max|u| Rand FEM  5.31 / PINN  5.54 mm
+  [ 38/216] Lauf  209  RMSE 0.045 mm  max|u| Rand FEM  2.12 / PINN  2.33 mm
+  [ 39/216] Lauf  210  RMSE 0.048 mm  max|u| Rand FEM  2.26 / PINN  2.51 mm
+  [ 40/216] Lauf  213  RMSE 0.054 mm  max|u| Rand FEM  2.53 / PINN  2.75 mm
+  [ 41/216] Lauf  221  RMSE 0.073 mm  max|u| Rand FEM  1.51 / PINN  1.65 mm
+  [ 42/216] Lauf  223  RMSE 0.073 mm  max|u| Rand FEM  1.57 / PINN  1.75 mm
+  [ 43/216] Lauf  235  RMSE 0.043 mm  max|u| Rand FEM  4.70 / PINN  4.74 mm
+  [ 44/216] Lauf  239  RMSE 0.072 mm  max|u| Rand FEM  5.69 / PINN  5.63 mm
+  [ 45/216] Lauf  245  RMSE 0.042 mm  max|u| Rand FEM  3.54 / PINN  3.60 mm
+  [ 46/216] Lauf  246  RMSE 0.045 mm  max|u| Rand FEM  3.76 / PINN  3.87 mm
+  [ 47/216] Lauf  254  RMSE 0.050 mm  max|u| Rand FEM  1.93 / PINN  2.06 mm
+  [ 48/216] Lauf  265  RMSE 0.054 mm  max|u| Rand FEM  1.30 / PINN  1.42 mm
+  [ 49/216] Lauf  270  RMSE 0.087 mm  max|u| Rand FEM  1.65 / PINN  1.81 mm
+  [ 50/216] Lauf  271  RMSE 0.062 mm  max|u| Rand FEM  7.23 / PINN  7.40 mm
+  [ 51/216] Lauf  274  RMSE 0.079 mm  max|u| Rand FEM  8.37 / PINN  8.58 mm
+  [ 52/216] Lauf  275  RMSE 0.078 mm  max|u| Rand FEM  8.70 / PINN  8.79 mm
+  [ 53/216] Lauf  281  RMSE 0.056 mm  max|u| Rand FEM  4.29 / PINN  4.33 mm
+  [ 54/216] Lauf  282  RMSE 0.060 mm  max|u| Rand FEM  4.50 / PINN  4.59 mm
+  [ 55/216] Lauf  293  RMSE 0.050 mm  max|u| Rand FEM  3.53 / PINN  3.52 mm
+  [ 56/216] Lauf  298  RMSE 0.044 mm  max|u| Rand FEM  1.62 / PINN  1.73 mm
+  [ 57/216] Lauf  300  RMSE 0.060 mm  max|u| Rand FEM  1.84 / PINN  1.95 mm
+  [ 58/216] Lauf  306  RMSE 0.071 mm  max|u| Rand FEM  2.36 / PINN  2.46 mm
+  [ 59/216] Lauf  315  RMSE 0.079 mm  max|u| Rand FEM  1.53 / PINN  1.65 mm
+  [ 60/216] Lauf  324  RMSE 0.114 mm  max|u| Rand FEM  9.10 / PINN  9.15 mm
+  [ 61/216] Lauf  326  RMSE 0.076 mm  max|u| Rand FEM  3.71 / PINN  3.81 mm
+  [ 62/216] Lauf  330  RMSE 0.046 mm  max|u| Rand FEM  4.50 / PINN  4.56 mm
+  [ 63/216] Lauf  336  RMSE 0.059 mm  max|u| Rand FEM  2.81 / PINN  2.94 mm
+  [ 64/216] Lauf  338  RMSE 0.034 mm  max|u| Rand FEM  3.12 / PINN  3.13 mm
+  [ 65/216] Lauf  341  RMSE 0.045 mm  max|u| Rand FEM  3.56 / PINN  3.55 mm
+  [ 66/216] Lauf  347  RMSE 0.046 mm  max|u| Rand FEM  1.79 / PINN  1.83 mm
+  [ 67/216] Lauf  353  RMSE 0.050 mm  max|u| Rand FEM  1.02 / PINN  1.10 mm
+  [ 68/216] Lauf  355  RMSE 0.040 mm  max|u| Rand FEM  1.11 / PINN  1.19 mm
+  [ 69/216] Lauf  357  RMSE 0.061 mm  max|u| Rand FEM  1.24 / PINN  1.32 mm
+  [ 70/216] Lauf  359  RMSE 0.055 mm  max|u| Rand FEM  1.33 / PINN  1.41 mm
+  [ 71/216] Lauf  375  RMSE 0.050 mm  max|u| Rand FEM  7.78 / PINN  7.85 mm
+  [ 72/216] Lauf  382  RMSE 0.039 mm  max|u| Rand FEM  4.60 / PINN  4.65 mm
+  [ 73/216] Lauf  383  RMSE 0.045 mm  max|u| Rand FEM  5.01 / PINN  5.06 mm
+  [ 74/216] Lauf  389  RMSE 0.060 mm  max|u| Rand FEM  2.40 / PINN  2.54 mm
+  [ 75/216] Lauf  390  RMSE 0.062 mm  max|u| Rand FEM  2.59 / PINN  2.75 mm
+  [ 76/216] Lauf  392  RMSE 0.079 mm  max|u| Rand FEM  2.69 / PINN  2.80 mm
+  [ 77/216] Lauf  396  RMSE 0.097 mm  max|u| Rand FEM  3.21 / PINN  3.37 mm
+  [ 78/216] Lauf  423  RMSE 0.114 mm  max|u| Rand FEM  7.37 / PINN  7.27 mm
+  [ 79/216] Lauf  426  RMSE 0.073 mm  max|u| Rand FEM  4.20 / PINN  4.23 mm
+  [ 80/216] Lauf  434  RMSE 0.072 mm  max|u| Rand FEM  2.17 / PINN  2.24 mm
+  [ 81/216] Lauf  450  RMSE 0.130 mm  max|u| Rand FEM  1.88 / PINN  1.95 mm
+  [ 82/216] Lauf  452  RMSE 0.051 mm  max|u| Rand FEM  7.64 / PINN  7.73 mm
+  [ 83/216] Lauf  460  RMSE 0.042 mm  max|u| Rand FEM  4.23 / PINN  4.26 mm
+  [ 84/216] Lauf  463  RMSE 0.056 mm  max|u| Rand FEM  4.85 / PINN  4.82 mm
+  [ 85/216] Lauf  465  RMSE 0.078 mm  max|u| Rand FEM  5.50 / PINN  5.46 mm
+  [ 86/216] Lauf  471  RMSE 0.064 mm  max|u| Rand FEM  3.56 / PINN  3.61 mm
+  [ 87/216] Lauf  472  RMSE 0.056 mm  max|u| Rand FEM  3.53 / PINN  3.50 mm
+  [ 88/216] Lauf  486  RMSE 0.110 mm  max|u| Rand FEM  2.63 / PINN  2.67 mm
+  [ 89/216] Lauf  495  RMSE 0.118 mm  max|u| Rand FEM  1.73 / PINN  1.78 mm
+  [ 90/216] Lauf  499  RMSE 0.065 mm  max|u| Rand FEM  7.25 / PINN  7.31 mm
+  [ 91/216] Lauf  501  RMSE 0.066 mm  max|u| Rand FEM  7.82 / PINN  7.87 mm
+  [ 92/216] Lauf  509  RMSE 0.045 mm  max|u| Rand FEM  4.43 / PINN  4.41 mm
+  [ 93/216] Lauf  514  RMSE 0.046 mm  max|u| Rand FEM  2.65 / PINN  2.75 mm
+  [ 94/216] Lauf  520  RMSE 0.045 mm  max|u| Rand FEM  3.49 / PINN  3.48 mm
+  [ 95/216] Lauf  522  RMSE 0.059 mm  max|u| Rand FEM  3.92 / PINN  3.92 mm
+  [ 96/216] Lauf  528  RMSE 0.080 mm  max|u| Rand FEM  2.07 / PINN  2.09 mm
+  [ 97/216] Lauf  532  RMSE 0.052 mm  max|u| Rand FEM  1.06 / PINN  1.11 mm
+  [ 98/216] Lauf  549  RMSE 0.151 mm  max|u| Rand FEM 17.35 / PINN 16.97 mm
+  [ 99/216] Lauf  552  RMSE 0.063 mm  max|u| Rand FEM  7.71 / PINN  7.72 mm
+  [100/216] Lauf  562  RMSE 0.050 mm  max|u| Rand FEM  5.02 / PINN  5.05 mm
+  [101/216] Lauf  567  RMSE 0.055 mm  max|u| Rand FEM  6.67 / PINN  6.72 mm
+  [102/216] Lauf  571  RMSE 0.080 mm  max|u| Rand FEM  2.74 / PINN  2.81 mm
+  [103/216] Lauf  573  RMSE 0.098 mm  max|u| Rand FEM  3.26 / PINN  3.31 mm
+  [104/216] Lauf  579  RMSE 0.124 mm  max|u| Rand FEM  1.86 / PINN  1.84 mm
+  [105/216] Lauf  591  RMSE 0.123 mm  max|u| Rand FEM 12.12 / PINN 12.09 mm
+  [106/216] Lauf  595  RMSE 0.062 mm  max|u| Rand FEM  5.38 / PINN  5.30 mm
+  [107/216] Lauf  596  RMSE 0.103 mm  max|u| Rand FEM  5.90 / PINN  5.75 mm
+  [108/216] Lauf  598  RMSE 0.093 mm  max|u| Rand FEM  6.07 / PINN  5.91 mm
+  [109/216] Lauf  600  RMSE 0.139 mm  max|u| Rand FEM  7.21 / PINN  6.98 mm
+  [110/216] Lauf  602  RMSE 0.142 mm  max|u| Rand FEM  7.41 / PINN  7.17 mm
+  [111/216] Lauf  603  RMSE 0.137 mm  max|u| Rand FEM  8.02 / PINN  7.81 mm
+  [112/216] Lauf  604  RMSE 0.047 mm  max|u| Rand FEM  3.88 / PINN  3.89 mm
+  [113/216] Lauf  607  RMSE 0.074 mm  max|u| Rand FEM  4.38 / PINN  4.31 mm
+  [114/216] Lauf  623  RMSE 0.102 mm  max|u| Rand FEM  1.57 / PINN  1.55 mm
+  [115/216] Lauf  627  RMSE 0.144 mm  max|u| Rand FEM  1.91 / PINN  1.87 mm
+  [116/216] Lauf  634  RMSE 0.080 mm  max|u| Rand FEM  8.37 / PINN  8.47 mm
+  [117/216] Lauf  644  RMSE 0.095 mm  max|u| Rand FEM  5.47 / PINN  5.34 mm
+  [118/216] Lauf  649  RMSE 0.040 mm  max|u| Rand FEM  3.28 / PINN  3.33 mm
+  [119/216] Lauf  653  RMSE 0.095 mm  max|u| Rand FEM  4.07 / PINN  3.99 mm
+  [120/216] Lauf  655  RMSE 0.066 mm  max|u| Rand FEM  4.19 / PINN  4.16 mm
+  [121/216] Lauf  668  RMSE 0.093 mm  max|u| Rand FEM  1.42 / PINN  1.40 mm
+  [122/216] Lauf  679  RMSE 0.088 mm  max|u| Rand FEM  7.08 / PINN  7.08 mm
+  [123/216] Lauf  680  RMSE 0.083 mm  max|u| Rand FEM  7.44 / PINN  7.38 mm
+  [124/216] Lauf  684  RMSE 0.105 mm  max|u| Rand FEM  8.86 / PINN  8.90 mm
+  [125/216] Lauf  685  RMSE 0.042 mm  max|u| Rand FEM  3.68 / PINN  3.79 mm
+  [126/216] Lauf  687  RMSE 0.045 mm  max|u| Rand FEM  4.20 / PINN  4.33 mm
+  [127/216] Lauf  702  RMSE 0.068 mm  max|u| Rand FEM  4.14 / PINN  4.15 mm
+  [128/216] Lauf  706  RMSE 0.060 mm  max|u| Rand FEM  1.93 / PINN  1.96 mm
+  [129/216] Lauf  708  RMSE 0.094 mm  max|u| Rand FEM  2.26 / PINN  2.27 mm
+  [130/216] Lauf  712  RMSE 0.062 mm  max|u| Rand FEM  1.16 / PINN  1.19 mm
+  [131/216] Lauf  714  RMSE 0.093 mm  max|u| Rand FEM  1.37 / PINN  1.36 mm
+  [132/216] Lauf  715  RMSE 0.074 mm  max|u| Rand FEM  1.32 / PINN  1.34 mm
+  [133/216] Lauf  718  RMSE 0.082 mm  max|u| Rand FEM  1.48 / PINN  1.50 mm
+  [134/216] Lauf  719  RMSE 0.105 mm  max|u| Rand FEM  1.61 / PINN  1.61 mm
+  [135/216] Lauf  723  RMSE 0.118 mm  max|u| Rand FEM 15.12 / PINN 14.80 mm
+  [136/216] Lauf  725  RMSE 0.148 mm  max|u| Rand FEM 15.41 / PINN 15.25 mm
+  [137/216] Lauf  729  RMSE 0.237 mm  max|u| Rand FEM 18.71 / PINN 17.93 mm
+  [138/216] Lauf  730  RMSE 0.105 mm  max|u| Rand FEM  6.86 / PINN  6.91 mm
+  [139/216] Lauf  734  RMSE 0.059 mm  max|u| Rand FEM  8.56 / PINN  8.47 mm
+  [140/216] Lauf  742  RMSE 0.075 mm  max|u| Rand FEM  5.39 / PINN  5.45 mm
+  [141/216] Lauf  745  RMSE 0.081 mm  max|u| Rand FEM  5.97 / PINN  6.04 mm
+  [142/216] Lauf  746  RMSE 0.054 mm  max|u| Rand FEM  6.64 / PINN  6.65 mm
+  [143/216] Lauf  750  RMSE 0.080 mm  max|u| Rand FEM  3.20 / PINN  3.25 mm
+  [144/216] Lauf  754  RMSE 0.096 mm  max|u| Rand FEM  3.28 / PINN  3.39 mm
+  [145/216] Lauf  757  RMSE 0.114 mm  max|u| Rand FEM  1.73 / PINN  1.68 mm
+  [146/216] Lauf  761  RMSE 0.149 mm  max|u| Rand FEM  2.12 / PINN  2.01 mm
+  [147/216] Lauf  774  RMSE 0.105 mm  max|u| Rand FEM 14.20 / PINN 14.18 mm
+  [148/216] Lauf  779  RMSE 0.141 mm  max|u| Rand FEM  7.09 / PINN  6.82 mm
+  [149/216] Lauf  782  RMSE 0.139 mm  max|u| Rand FEM  7.88 / PINN  7.60 mm
+  [150/216] Lauf  792  RMSE 0.141 mm  max|u| Rand FEM  6.27 / PINN  6.13 mm
+  [151/216] Lauf  798  RMSE 0.129 mm  max|u| Rand FEM  3.21 / PINN  3.19 mm
+  [152/216] Lauf  802  RMSE 0.093 mm  max|u| Rand FEM  1.56 / PINN  1.54 mm
+  [153/216] Lauf  809  RMSE 0.151 mm  max|u| Rand FEM  2.13 / PINN  2.09 mm
+  [154/216] Lauf  819  RMSE 0.142 mm  max|u| Rand FEM 10.85 / PINN 10.99 mm
+  [155/216] Lauf  828  RMSE 0.087 mm  max|u| Rand FEM  6.90 / PINN  6.81 mm
+  [156/216] Lauf  838  RMSE 0.057 mm  max|u| Rand FEM  2.07 / PINN  2.15 mm
+  [157/216] Lauf  845  RMSE 0.114 mm  max|u| Rand FEM  2.88 / PINN  2.91 mm
+  [158/216] Lauf  854  RMSE 0.136 mm  max|u| Rand FEM  1.93 / PINN  1.92 mm
+  [159/216] Lauf  856  RMSE 0.123 mm  max|u| Rand FEM  5.92 / PINN  6.00 mm
+  [160/216] Lauf  860  RMSE 0.120 mm  max|u| Rand FEM  7.31 / PINN  7.27 mm
+  [161/216] Lauf  865  RMSE 0.058 mm  max|u| Rand FEM  3.73 / PINN  3.91 mm
+  [162/216] Lauf  876  RMSE 0.045 mm  max|u| Rand FEM  3.38 / PINN  3.54 mm
+  [163/216] Lauf  878  RMSE 0.050 mm  max|u| Rand FEM  3.57 / PINN  3.63 mm
+  [164/216] Lauf  880  RMSE 0.044 mm  max|u| Rand FEM  3.69 / PINN  3.80 mm
+  [165/216] Lauf  891  RMSE 0.109 mm  max|u| Rand FEM  2.72 / PINN  2.78 mm
+  [166/216] Lauf  894  RMSE 0.104 mm  max|u| Rand FEM  1.49 / PINN  1.48 mm
+  [167/216] Lauf  896  RMSE 0.105 mm  max|u| Rand FEM  1.55 / PINN  1.54 mm
+  [168/216] Lauf  898  RMSE 0.090 mm  max|u| Rand FEM  1.58 / PINN  1.62 mm
+  [169/216] Lauf  905  RMSE 0.166 mm  max|u| Rand FEM 16.07 / PINN 15.94 mm
+  [170/216] Lauf  918  RMSE 0.120 mm  max|u| Rand FEM 10.98 / PINN 11.03 mm
+  [171/216] Lauf  923  RMSE 0.077 mm  max|u| Rand FEM  6.33 / PINN  6.42 mm
+  [172/216] Lauf  924  RMSE 0.081 mm  max|u| Rand FEM  6.99 / PINN  7.02 mm
+  [173/216] Lauf  925  RMSE 0.139 mm  max|u| Rand FEM  6.23 / PINN  6.45 mm
+  [174/216] Lauf  928  RMSE 0.107 mm  max|u| Rand FEM  2.79 / PINN  2.94 mm
+  [175/216] Lauf  936  RMSE 0.127 mm  max|u| Rand FEM  4.20 / PINN  4.32 mm
+  [176/216] Lauf  948  RMSE 0.116 mm  max|u| Rand FEM 11.70 / PINN 11.63 mm
+  [177/216] Lauf  956  RMSE 0.085 mm  max|u| Rand FEM  6.56 / PINN  6.46 mm
+  [178/216] Lauf  960  RMSE 0.147 mm  max|u| Rand FEM  8.11 / PINN  7.86 mm
+  [179/216] Lauf  961  RMSE 0.075 mm  max|u| Rand FEM  7.30 / PINN  7.29 mm
+  [180/216] Lauf  963  RMSE 0.154 mm  max|u| Rand FEM  8.98 / PINN  8.74 mm
+  [181/216] Lauf  965  RMSE 0.064 mm  max|u| Rand FEM  4.82 / PINN  4.85 mm
+  [182/216] Lauf  973  RMSE 0.067 mm  max|u| Rand FEM  2.48 / PINN  2.61 mm
+  [183/216] Lauf  980  RMSE 0.115 mm  max|u| Rand FEM  3.43 / PINN  3.54 mm
+  [184/216] Lauf  982  RMSE 0.098 mm  max|u| Rand FEM  1.64 / PINN  1.65 mm
+  [185/216] Lauf  985  RMSE 0.111 mm  max|u| Rand FEM  1.84 / PINN  1.85 mm
+  [186/216] Lauf  991  RMSE 0.131 mm  max|u| Rand FEM  7.21 / PINN  7.47 mm
+  [187/216] Lauf  993  RMSE 0.142 mm  max|u| Rand FEM  8.55 / PINN  8.82 mm
+  [188/216] Lauf  998  RMSE 0.132 mm  max|u| Rand FEM 10.04 / PINN 10.23 mm
+  [189/216] Lauf  999  RMSE 0.182 mm  max|u| Rand FEM 10.84 / PINN 11.08 mm
+  [190/216] Lauf 1000  RMSE 0.070 mm  max|u| Rand FEM  4.64 / PINN  4.86 mm
+  [191/216] Lauf 1004  RMSE 0.079 mm  max|u| Rand FEM  5.82 / PINN  5.85 mm
+  [192/216] Lauf 1007  RMSE 0.087 mm  max|u| Rand FEM  6.49 / PINN  6.54 mm
+  [193/216] Lauf 1011  RMSE 0.072 mm  max|u| Rand FEM  4.33 / PINN  4.46 mm
+  [194/216] Lauf 1013  RMSE 0.079 mm  max|u| Rand FEM  4.45 / PINN  4.53 mm
+  [195/216] Lauf 1021  RMSE 0.067 mm  max|u| Rand FEM  2.43 / PINN  2.57 mm
+  [196/216] Lauf 1024  RMSE 0.074 mm  max|u| Rand FEM  2.70 / PINN  2.90 mm
+  [197/216] Lauf 1027  RMSE 0.085 mm  max|u| Rand FEM  1.47 / PINN  1.52 mm
+  [198/216] Lauf 1031  RMSE 0.124 mm  max|u| Rand FEM  1.83 / PINN  1.84 mm
+  [199/216] Lauf 1036  RMSE 0.175 mm  max|u| Rand FEM  5.68 / PINN  5.95 mm
+  [200/216] Lauf 1037  RMSE 0.163 mm  max|u| Rand FEM  6.12 / PINN  6.38 mm
+  [201/216] Lauf 1038  RMSE 0.204 mm  max|u| Rand FEM  6.54 / PINN  6.92 mm
+  [202/216] Lauf 1043  RMSE 0.190 mm  max|u| Rand FEM  7.97 / PINN  8.15 mm
+  [203/216] Lauf 1045  RMSE 0.106 mm  max|u| Rand FEM  3.71 / PINN  4.07 mm
+  [204/216] Lauf 1046  RMSE 0.089 mm  max|u| Rand FEM  4.07 / PINN  4.37 mm
+  [205/216] Lauf 1047  RMSE 0.102 mm  max|u| Rand FEM  4.41 / PINN  4.74 mm
+  [206/216] Lauf 1048  RMSE 0.089 mm  max|u| Rand FEM  4.24 / PINN  4.53 mm
+  [207/216] Lauf 1053  RMSE 0.086 mm  max|u| Rand FEM  5.64 / PINN  5.86 mm
+  [208/216] Lauf 1059  RMSE 0.065 mm  max|u| Rand FEM  3.96 / PINN  4.17 mm
+  [209/216] Lauf 1060  RMSE 0.073 mm  max|u| Rand FEM  3.70 / PINN  4.01 mm
+  [210/216] Lauf 1062  RMSE 0.071 mm  max|u| Rand FEM  4.43 / PINN  4.65 mm
+  [211/216] Lauf 1064  RMSE 0.065 mm  max|u| Rand FEM  2.06 / PINN  2.20 mm
+  [212/216] Lauf 1067  RMSE 0.078 mm  max|u| Rand FEM  2.33 / PINN  2.46 mm
+  [213/216] Lauf 1068  RMSE 0.094 mm  max|u| Rand FEM  2.55 / PINN  2.67 mm
+  [214/216] Lauf 1070  RMSE 0.086 mm  max|u| Rand FEM  2.60 / PINN  2.77 mm
+  [215/216] Lauf 1073  RMSE 0.090 mm  max|u| Rand FEM  1.45 / PINN  1.49 mm
+  [216/216] Lauf 1080  RMSE 0.140 mm  max|u| Rand FEM  1.98 / PINN  2.06 mm
+
+TEST Modell results/geo_15k_w05/geo_15k_w05_model.pt
+Testdaten ../fenics-soil/fem_data_geo (nur Validierung)
+
+Innerhalb der trainierten Bereiche: 216 Rechnungen
+  Verschiebungsfeld   RMSE 0.090 mm (Schale 0.101, Boden 0.088), rel. Fehler 8.5 %
+  max|u| Tunnelrand   mittl. Abweichung 0.11 mm, max 0.78 mm
+  Grenzwert 10 mm   0 von 216 falsch eingestuft
+  Moment M            RMSE 11.4 kNm/m (|M|max FEM im Mittel 151.8, rel 8 %)
+  Normalkraft N       RMSE 181 kN/m (|N|max FEM im Mittel 1172, rel 15 %)
+  Mohr-Coulomb eta    mittl. Abweichung 0.018 (3 m um die Schale, c = 2 kPa)
+
+Ausserhalb (Extrapolation): keine Rechnungen
+
+geschrieben: results\geo_15k_w05\val_auswertung
